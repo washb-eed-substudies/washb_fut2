@@ -329,7 +329,7 @@ ggplot(plotdf, aes(x=X)) +
         ggtitle("Ratio of FUT2 Negative (non-secretor) over FUT2 Positive (secretor)")
 ```
 
-## Supplementary Figure 5: Maternal FUT2 status effect on continious growth outcomes, stratified by measurement round
+## Supplementary Figure 5: Maternal FUT2 status effect on continuous growth outcomes, stratified by measurement round
 
 ```{r, echo=F, fig.width=12, fig.height=8}
 plotdf <-data.frame(X= rownames(res_motherFU2_growthRF_cont), res_motherFU2_growthRF_cont)
