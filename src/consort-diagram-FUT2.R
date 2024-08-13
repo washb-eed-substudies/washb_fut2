@@ -61,6 +61,8 @@ table(mfut2$round, mfut2$tr)
 
 
 # #Check Ronit's manuscript and the actual graph to get what's needed in the consort
+
+
 # From EED manuscript:
 # 
 # d %>% group_by(tr) %>% 
